@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	vertical-align: top;
+}
+li {
+	list-style: none;
+}
+.router {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+
+}
+.menu {
+	width: 240px;
+	height: 100%;
+	background: rgb(45,45,54)
+}
+.menu .logo {
+	height: 80px;
+}
+.menu .side_nav {
+	padding-top: 10px;
+}
+.menu .side_nav ul li{
+	height: 52px;
+	line-height: 52px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 1px;
+	text-align: center;
+}
+.menu .side_nav ul li a {
+	color: #57697e;
+}
+.menu .side_nav ul li a.active {
+	color: red;
+}
+.content {
+	width: calc(100vw - 240px);
+	background: #151c31;
+	height: 100%;
+}
+.content .con_top_nav {
+	height: 80px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+.content .con_top_nav ul {
+	background: #151c31;
+	display: flex;
+	align-items: center;
+}
+.content .con_top_nav ul li {
+	
+	width: 60px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid rgba(255,255,255,0.5);
+	text-align: center;
+	margin-right: 20px;
+}
+.content .con_top_nav ul li a {
+	color: #57697e;
+	font-size: 14px;
+}
+.content .con_top_nav ul li a.active {
+	color: red;
+	font-size: 12px;
+}
+.content .show_con {
+	background: #fff;
+}
+.content .container {
+	position: relative;
+	height: calc( 100vh - 80px );
+	overflow: hidden;
+}
+.content .container canvas {
+
+}

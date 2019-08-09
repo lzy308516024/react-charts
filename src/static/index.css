@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	vertical-align: top;
+}
+li {
+	list-style: none;
+}
+.router {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+
+}
+.menu {
+	width: 240px;
+	height: 100%;
+	background: rgb(45,45,54)
+}
+.content {
+	width: calc(100vw - 240px);
+	background: #151c31;
+	height: 100%;
+}
